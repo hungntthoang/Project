@@ -4,133 +4,119 @@
 	margin: 0;
 }
 
-main {
-	width: 960px;
+.container {
+	width: 1170px;
+	height: 770px;
 	margin:auto;
+	margin-top: 70px;
 	display: flex;
 }
 
-.container {
-	float: left;
-    width: 33.33%;
-  	margin: auto;
-  	margin-top: 70px;
-  	position: relative;
-  	background: white;
+.main {
+	width: 390px;
+	margin: auto;
+	position: relative;
+	background: white;
 }
 
-.hinhtron {
+.price_list {
 	width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: -50px;
-    left: calc(30% - 50px);
-    text-align: center;
-    background: #393b50;
-}
-
-.hinhtron h4 {
-	line-height: 70px;
-	color: #07d2ed;
-	font-size: 23px;
-	font-weight: normal;
-}
-
-.hinhtron p {
-	color: #99a9b5;
-	font-size: 14px;
+	height: 100px;
+	border-radius: 50%;
 	position: absolute;
-	top:50px;
-	left: 28px;
+	top: -50px;
+	left: calc(30% - 70px);
+	text-align: center;
+	background: #393b50;
+
+	h4 {
+		line-height: 70px;
+		color: #07d2ed;
+		font-size: 23px;
+		font-weight: normal;
+	}
+
+	p {
+		color: #99a9b5;
+		font-size: 14px;
+		position: absolute;
+		top:50px;
+		left: 28px;
+	}
+
+	img {
+		position: absolute;
+		top: 21px;
+		left: calc(30% - -55px);
+		text-align: center;
+		width: 55px;
+		height: 55px;
+	}
 }
 
-.hinhtron img {
-    position: absolute;
-    top: 21px;
-    left: calc(30% - -55px);
-    text-align: center;
-    width: 55px;
-    height: 55px;
-}
-
-.tieude_one {
+.sub_title_one, .sub_title_two, .sub_title_three {
 	height: 220px;
 	background: #00bcd4;
+
+	h2 {
+		padding: 110px 0 0 50px;
+		color: white;
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	h4 {
+		padding: 15px 0 0 50px;
+		color: #e7f9fc;
+		font-size: 25px;
+		font-weight: normal;
+	}
 }
 
-.tieude_true {
-	height: 220px;
-	background: #1c94ca;
+.sub_title_two {
+	p {
+		padding: 15px 0 0 50px;
+		color: white;
+		font-size: 12px;
+		font-weight: normal;
+	}
+
+	h2 {
+		padding-top: 85px;
+	}
+
+	h4 {
+		padding-top: 15px;
+	}
 }
 
-.tieude_three {
-	height: 220px;
-	background: #7264bd;
+.direction { 
+	h3 {
+		color: #768691;
+		font-weight: normal;
+		padding: 25px 0 0 50px;
+		font-size: 25px;
+	}
+
+	p {
+		padding: 3px 0 0 50px;
+		font-size: 12px;
+		color: #c2cbd3;
+	}
 }
 
-.tieude_true p {
-	padding-left: 50px;
-	color: white;
-	font-size: 12px;
-	padding-top: 15px;
-	font-weight: normal;
-}
-
-.tieude_true h2 {
-	padding-left: 50px;
-	color: white;
-	font-size: 30px;
-	padding-top: 85px;
-	font-weight: bold;
-}
-
-.tieude_one h2, .tieude_three h2 {
-	padding-left: 50px;
-	color: white;
-	font-size: 30px;
-	padding-top: 110px;
-	font-weight: bold;
-}
-
-.tieude_one h4, .tieude_true h4, .tieude_three h4 {
-	padding-left: 50px;
-	padding-top: 15px;
-	color: #e7f9fc;
-	font-size: 25px;
-	font-weight: normal;
-}
-
-.noidung h3 {
-	color: #768691;
-	font-weight: normal;
-	padding-left: 50px;
+.content ul {
 	padding-top: 25px;
-	font-size: 25px;
 }
 
-.noidung p {
-	padding-left: 50px;
-	padding-top: 3px;
-	font-size: 12px;
-	color: #c2cbd3;
-}
-
-.noidung ul {
-	padding-top: 25px;
+input {
+	margin-right: 10px;
 }
 
 ul li {
 	list-style-type: none;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-left: 21px;
+	padding: 15px 0 15px 50px;
 	display: block;
-	text-align: center;
-}
-
-input {
-	margin-right: 5px;
 }
 
 ul li:nth-of-type(odd) {
@@ -141,35 +127,28 @@ ul li i {
 	padding-right: 5px;
 }
 
-.btn_bt1 {
-	margin-left: 50px;
-    margin-top: 40px;
-    padding: 11px 30px;
-    background: #b6c6c9;
-    color: white;
-    border-radius: 20px;
-    border: none;
-    font-size: 16px;
-    margin-bottom: 40px;
+.btn_bt {
+	margin: 40px 0 40px 50px;
+	padding: 14px 47px;
+	background: #b6c6c9;
+	color: white;
+	border-radius: 23px;
+	border: none;
+	font-size: 16px;
 }
 
 .main_one{
 	border-left: 1px solid #e5eaec;
+}
+
+.main_one, .main_true, .main_three {
 	border-bottom: 1px solid #e5eaec;
 	border-right: 1px solid #e5eaec;
 }
 
-.main_true{
-	border-bottom: 1px solid #e5eaec;
-	border-right: 1px solid #e5eaec;
-}
-
-.main_three{
-	border-bottom: 1px solid #e5eaec;
-	border-right: 1px solid #e5eaec;
-}
-
-.btn_bt1:hover {
+.btn_bt:hover {
 	background:  #2c2e3d;
 	color: white;
+	cursor: pointer;
 }
+/*# sourceMappingURL=bai1.css.map */
